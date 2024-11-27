@@ -1,0 +1,11 @@
+.character {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+.character:hover {
+    transform: scale(1.05);
+}
