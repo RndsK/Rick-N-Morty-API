@@ -1,11 +1,11 @@
 export interface CharacterData {
-    id: number;
-    name: string;
-    image: string;
-    status: string;
-    species: string;
-    gender:string;
-  }
+  id: number;
+  name: string;
+  image: string;
+  status: string;
+  species: string;
+  gender: string;
+}
   
   export interface CharacterProps {
     character: {

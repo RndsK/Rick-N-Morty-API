@@ -1,0 +1,41 @@
+.character {
+  border: 2px solid #32c672;
+  border-radius: 10px;
+  background-color: #141629; 
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.character img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.character h3 {
+  margin: 10px 0 0;
+  color: #ffcc00;
+}
+
+.character:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #32c672;
+}
+
+.add-favorites-button {
+  background-color: #ffcc00;
+  color: #141629;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.add-favorites-button:hover {
+  transform: scale(1.1);
+  background-color: #32c672;
+}
